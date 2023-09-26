@@ -71,6 +71,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
