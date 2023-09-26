@@ -111,6 +111,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RevampedFMRadio
 
+# Debloat
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
